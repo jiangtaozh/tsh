@@ -1,1 +1,2 @@
 */1 * * * * /root/test/auto_failover.sh
+*/5 * * * * /root/test/codelines.sh
