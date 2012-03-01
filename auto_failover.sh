@@ -32,6 +32,8 @@ function execute
         command=$@
 	msg="<`date +'%y-%m-%d %H:%M:%S'`> execute command: $@\n"
 	echo $msg >>$LOG_FILE
+        # must use eval to caculate the result, otherwise, pipe can't be re
+        # recognized.
         eval out=\$\($command\)
         echo $out
         echo $out >> $LOG_FILE 2>&1
