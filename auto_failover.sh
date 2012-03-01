@@ -15,6 +15,7 @@
 #@
 #@ Histoty:
 #@ 02/28/12  Tom Zhang    Intial version.
+#@ 02/29/12  Tom Zhang    Add to github.
 ################################################################################
 
 LOG_FILE=$HOME/auto_test_failover.log
